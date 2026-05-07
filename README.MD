@@ -2,6 +2,8 @@
 
 Tools for processing athlete report cards and generating performance visualizations.
 
+
+Example "swimscore" charts (names obscured)
 ![Example Chart 1](example_charts/11-2791428879930149545-3341057076400716691.png)
 ![Example Chart 2](example_charts/8--78723808899502946597844595635614515302.png)
 
@@ -70,5 +72,4 @@ for age in sorted(scores["Age"].unique()):
 - **ResultSec**: Time in seconds
 - **TeamAgeSwimScore**: Performance score (0-100)
   - 100 = tied for team best
-  - <100 = slower than team best
   - 0 = no recorded time
